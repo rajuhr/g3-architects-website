@@ -1,7 +1,7 @@
 /* work sens font */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap')
 *{
-    font-family: "Work Sans", sans-serif;
+    font-family: Work Sans;
 }
 /* navigation-section */
 .header-section{
@@ -57,4 +57,32 @@ li > a{
 }
 .header-section > img{
     border-radius: 20px;
+}
+/* main part */
+.main{
+    background: #FFF;
+}
+.section-1{
+    margin-top: 20px;
+    display: flex;
+}
+.main-team{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5px;
+    row-gap: 10px;
+    padding-left: 250px;
+    padding-top: 50px;
+    padding-right: 40px;
+}
+.Features{
+    max-width: 1920px;
+    padding-top: 240px;
+    padding-left: 20px;
+}
+.features-title{
+    font-size: 3rem;
+}
+.features-title >span{
+    color: darkorange;
 }
