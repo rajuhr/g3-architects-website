@@ -1,126 +1,318 @@
 /* work sens font */
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap')
-*{
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap') * {
     font-family: Work Sans;
 }
+
 /* navigation-section */
-.header-section{
-   
+.header-section {
+
     background-color: rgba(255, 144, 14, 0.10);
     padding: 40px 250px;
 
 }
-.nav-title{
+
+.nav-title {
     text-align: center;
 }
-.navigation{
+
+.navigation {
     display: flex;
     justify-content: space-between;
 
 }
 
-.nav-details{
+.nav-details {
     display: flex;
 
 }
 
-.navigation > ul {
+.navigation>ul {
     text-decoration: none;
     list-style: none;
     display: flex;
     gap: 30px;
     font-size: 18px;
 }
-li > a{
+
+li>a {
     text-decoration: none;
 }
-.nav-description{
+
+.nav-description {
     align-items: center;
-    
     font-size: 64px;
 
 }
-.brand-name{
+
+.brand-name {
     text-align: center;
 
 
 }
-.nav-paragrap{
-  text-align: center;
-  font-size: 16px;
-  padding-bottom: 15px;
+
+.nav-paragrap {
+    text-align: center;
+    font-size: 16px;
+    padding-bottom: 15px;
 
 }
-.btn-primary{
+
+.btn-primary {
     color: white;
-    background-color:orange;
+    background-color: orange;
     padding: 10px;
     margin-bottom: 20px;
     margin-left: 50%;
     border-radius: 10px;
 }
-.header-section > img{
+
+.header-section>img {
     border-radius: 20px;
     align-items: center;
     width: 100%;
 }
+
 /* main part */
-.main{
+.main {
     background: #FFF;
 }
-.section-1{
+
+.section-1 {
     margin-top: 20px;
     display: flex;
 }
-.main-team{
+
+.main-team {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 15px;
     row-gap: 20px;
-    padding-left: 250px;
+    padding-left: 150px;
     padding-top: 50px;
     padding-right: 40px;
 }
-.Features{
+
+.Features {
     max-width: 1920px;
     padding-top: 240px;
     padding-left: 20px;
 }
-.features-title{
+
+.features-title {
     font-size: 3rem;
 }
-.features-title >span{
+
+.features-title>span {
     color: darkorange;
+}
+
+/* ------------------experiece-section---------- */
+.ex-main-container {
+    display: flex;
+    margin-top: 40px;
+    padding: 20px;
+    justify-content: space-between;
+
+}
+
+
+
+.experience-sub-title {
+    font-size: 45px;
+    font-weight: 700;
+    border-left: 5px solid yellow;
+    padding-left: 15px;
+}
+
+.experiece-description {
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+
+.card-feature {
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+
+.experiece-img {
+    margin-top: 50px;
+}
+
+.experiece-img img {
+    width: 608px;
+    height: 782px;
+    margin-left: 150px;
+
+}
+
+.experience-info {
+    margin-left: 130px;
+    position: relative;
+    bottom: 70px;
+    color: #FFF;
+    background-color: darkorange;
+    border-radius: 15px;
+}
+
+.btn-info {
+    font-size: 55px;
+    margin: 0%;
+    padding-top: 8px;
+
+}
+
+.btn-des {
+    padding-bottom: 35px;
+    margin: 0%;
+}
+
+/* -------------------some facts styles------------ */
+.some-facets-container {
+    margin-left: 30px;
+    margin-bottom: 80px;
+}
+
+.some-titile {
+    font-size: 45px;
+    font-weight: 700;
+
+}
+
+.some-description {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card-icon-details {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 180px;
+
+}
+
+.card-icon-1 {
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 10px;
+}
+
+.card-img-icon {
+    width: 45.221px;
+    height: 45.221px;
+}
+
+.card-nem-1 {
+    font-size: 45px;
+    font-weight: 600;
+    margin: 0%;
+}
+
+.card-icon-description {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0%;
+}
+
+/* ------------sponsor style----------- */
+.sponsor-container {
+    text-align: center;
+}
+
+.sponsor-title {
+    font-size: 45px;
+    font-weight: 700;
+    margin: 0%;
+
+}
+
+.sponser-description {
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 10px;
+    margin: 0%;
+    color: Dark;
+    padding-bottom: 50px;
+}
+
+.sponser-img-container {
+    display: flex;
+    margin-bottom: 200px;
+}
+
+.sponser-img-container img {
+    margin-left: 50px;
+    width: 150px;
+    height: 50px;
+
 }
 
 
 /* smaller device or mobile device responsive */
 @media screen and (max-width:576px) {
-    .navigation{
+    .navigation {
         flex-direction: column;
     }
-    .header-section{
+
+    .header-section {
         padding: 15px;
     }
-    .btn-primary{
+
+    .btn-primary {
         margin-left: 150px;
         g
     }
-    .nav-paragrap{
+
+    .nav-paragrap {
         padding-bottom: 0px;
         padding-top: 0%;
     }
-    .section-1{
+
+    .section-1 {
         flex-direction: column;
     }
-    .main-team{
+
+    .main-team {
         grid-template-columns: 1fr;
         padding-left: 20px;
 
     }
-    .Features{
+
+    .Features {
         padding-top: 15px;
     }
 
-    
+    .ex-main-container {
+        flex-direction: column;
+    }
+
+    .experiece-img img {
+        width: 100%;
+        margin-left: 0%;
+        padding: 5px;
+    }
+
+    .experience-info {
+        position: static;
+    }
+
+    .card-icon-details {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .sponser-img-container {
+        flex-direction: column;
+        padding: 15px;
+
+    }
+
+
+
+
 }
