@@ -46,6 +46,8 @@ li>a {
 
 .brand-name {
     text-align: center;
+    margin-right: 5px;
+    
 
 
 }
@@ -251,6 +253,22 @@ li>a {
 
 }
 
+/* ---------------footer-------- */
+.footer-container {
+    width: 1440px;
+    height: 100px;
+    border-radius: 8px;
+    background: #FFF4E7;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.footer-title {
+    font-size: 20px;
+    font-weight: 400;
+    color: #424242;
+}
+
 
 /* smaller device or mobile device responsive */
 @media screen and (max-width:576px) {
@@ -310,6 +328,9 @@ li>a {
         flex-direction: column;
         padding: 15px;
 
+    }
+    .footer-container{
+        width: 90%;
     }
 
 
